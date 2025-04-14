@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
@@ -169,3 +171,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+plots/
+files/
+output/
+*.csv
+!SD_b2dates.csv
+!kc_weather_analyze_full.csv
+!kc_weather_analyze_summary.csv
